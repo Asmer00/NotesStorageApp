@@ -1,0 +1,42 @@
+# Built application files and distribution packages
+*.apk
+*.aar
+*.aab
+
+# Android runtime and Dalvik executable files
+*.dex
+
+# Java compiled class files
+*.class
+
+# Build outputs and generated directories
+bin/
+gen/
+out/
+app/build/
+build/
+
+# Gradle caches and build cleanup data
+.gradle/
+buildOutputCleanup/
+
+# Local machine-specific configuration (Android SDK path)
+local.properties
+
+# Android Studio and IntelliJ IDEA workspace and project files
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Diagnostic logs and temp files
+*.log
+captures/
+.navigation/
+.externalNativeBuild
+.cxx
+
+# Operating system metadata files
+.DS_Store
+Thumbs.db

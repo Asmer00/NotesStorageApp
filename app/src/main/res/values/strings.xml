@@ -1,0 +1,59 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Notes Storage App</string>
+
+    <!-- Main Screen & Navigation -->
+    <string name="action_sync">Sync to JSON</string>
+    <string name="action_sync_desc">Synchronize notes from SQLite to JSON</string>
+    <string name="action_add_note_desc">Create new note</string>
+    <string name="action_delete_desc">Delete note</string>
+    <string name="action_back_desc">Navigate back</string>
+    <string name="action_save">Save</string>
+    <string name="action_save_desc">Save note</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Filter Tabs -->
+    <string name="tab_all">All</string>
+    <string name="tab_sqlite">SQLite</string>
+    <string name="tab_json">JSON</string>
+
+    <!-- Empty State -->
+    <string name="empty_notes_title">No notes found</string>
+    <string name="empty_notes_subtitle">Tap the + button below to create a note.</string>
+
+    <!-- Editor Screen -->
+    <string name="title_create_note">New Note</string>
+    <string name="title_edit_note">Edit Note</string>
+    <string name="hint_note_title">Title</string>
+    <string name="hint_note_content">Content</string>
+    <string name="label_storage_selection">Save destination:</string>
+    <string name="storage_option_sqlite">SQLite Database (Primary)</string>
+    <string name="storage_option_json">JSON File Storage (Secondary)</string>
+    <string name="btn_save_note">Save Note</string>
+
+    <!-- Storage Badges -->
+    <string name="badge_sqlite">SQLite</string>
+    <string name="badge_json">JSON</string>
+
+    <!-- Validation & Alerts -->
+    <string name="error_empty_title">Title cannot be empty</string>
+    <string name="error_empty_content">Content cannot be empty</string>
+    <string name="error_validation_failed">Please provide both title and content</string>
+    <string name="msg_note_saved">Note saved successfully</string>
+    <string name="msg_note_updated">Note updated successfully</string>
+    <string name="msg_note_deleted">Note deleted</string>
+    <string name="msg_sync_success">Synced %1$d note(s) to JSON storage</string>
+    <string name="msg_sync_empty">No notes in SQLite to synchronize</string>
+    <string name="msg_error">Error: %1$s</string>
+    <string name="error_unknown">An unexpected error occurred</string>
+
+    <!-- Confirmation Dialogs -->
+    <string name="dialog_delete_title">Delete Note</string>
+    <string name="dialog_delete_message">Are you sure you want to delete note \"%1$s\"?</string>
+    <string name="dialog_discard_title">Discard Changes?</string>
+    <string name="dialog_discard_message">You have unsaved changes. Are you sure you want to exit without saving?</string>
+    <string name="dialog_btn_delete">Delete</string>
+    <string name="dialog_btn_discard">Discard</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_btn_keep_editing">Keep Editing</string>
+</resources>
